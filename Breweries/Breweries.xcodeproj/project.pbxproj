@@ -121,6 +121,7 @@
 		D25AA4EB293250CA0022B9DC /* Breweries */ = {
 			isa = PBXGroup;
 			children = (
+				D25AA53B2932591D0022B9DC /* Home */,
 				D25AA524293255960022B9DC /* Utils + Extensions */,
 				D25AA51F293252A70022B9DC /* Coordinator */,
 				D25AA4EC293250CA0022B9DC /* AppDelegate.swift */,
@@ -182,6 +183,37 @@
 				D25AA539293258590022B9DC /* CALayerExtension.swift */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		D25AA53B2932591D0022B9DC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D25AA53E293259590022B9DC /* ViewController */,
+				D25AA53D293259510022B9DC /* Screen */,
+				D25AA53C293259430022B9DC /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D25AA53C293259430022B9DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D25AA53D293259510022B9DC /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		D25AA53E293259590022B9DC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
