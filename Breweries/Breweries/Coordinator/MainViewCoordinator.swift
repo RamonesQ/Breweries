@@ -11,7 +11,7 @@ import UIKit
 class MainCoordinator: Coordinator {
 	var navigationController: UINavigationController?
 	 func startCoordinator() {
-		 let vc = ViewController()
+		 let vc = HomeViewController()
 		 		vc.mainCoordinator = self
 		 navigationController?.pushViewController(vc, animated: false)
 	 }
