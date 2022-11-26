@@ -8,10 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+	
+	var mainCoordinator: MainCoordinator?
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+		self.view.backgroundColor = .lightGray
+		self.navigationController?.navigationBar.backgroundColor = .yellow
+		self.title = "Brewery"
 	}
 
 
