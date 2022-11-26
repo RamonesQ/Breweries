@@ -31,6 +31,9 @@
 		D25AA54229325B790022B9DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54129325B790022B9DC /* HomeViewController.swift */; };
 		D25AA54429325B850022B9DC /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54329325B850022B9DC /* HomeVM.swift */; };
 		D25AA54629325C150022B9DC /* HomeNavScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54529325C150022B9DC /* HomeNavScreen.swift */; };
+		D25AA54829328B3B0022B9DC /* HomeCarrosselScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54729328B3B0022B9DC /* HomeCarrosselScreen.swift */; };
+		D25AA54B29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54A29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift */; };
+		D25AA54E2932904E0022B9DC /* BreweryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54D2932904E0022B9DC /* BreweryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		D25AA54129325B790022B9DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D25AA54329325B850022B9DC /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		D25AA54529325C150022B9DC /* HomeNavScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavScreen.swift; sourceTree = "<group>"; };
+		D25AA54729328B3B0022B9DC /* HomeCarrosselScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCarrosselScreen.swift; sourceTree = "<group>"; };
+		D25AA54A29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosselHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D25AA54D2932904E0022B9DC /* BreweryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,7 @@
 		D25AA4EB293250CA0022B9DC /* Breweries */ = {
 			isa = PBXGroup;
 			children = (
+				D25AA54C2932901E0022B9DC /* Model */,
 				D25AA53B2932591D0022B9DC /* Home */,
 				D25AA524293255960022B9DC /* Utils + Extensions */,
 				D25AA51F293252A70022B9DC /* Coordinator */,
@@ -196,6 +203,7 @@
 		D25AA53B2932591D0022B9DC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D25AA54929328CC00022B9DC /* Cell */,
 				D25AA53E293259590022B9DC /* ViewController */,
 				D25AA53D293259510022B9DC /* Screen */,
 				D25AA53C293259430022B9DC /* ViewModel */,
@@ -216,6 +224,7 @@
 			children = (
 				D25AA53F29325B670022B9DC /* HomeScreen.swift */,
 				D25AA54529325C150022B9DC /* HomeNavScreen.swift */,
+				D25AA54729328B3B0022B9DC /* HomeCarrosselScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -226,6 +235,22 @@
 				D25AA54129325B790022B9DC /* HomeViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D25AA54929328CC00022B9DC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D25AA54A29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D25AA54C2932901E0022B9DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D25AA54D2932904E0022B9DC /* BreweryModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,8 +390,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25AA4F1293250CA0022B9DC /* ViewController.swift in Sources */,
+				D25AA54B29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift in Sources */,
 				D25AA4ED293250CA0022B9DC /* AppDelegate.swift in Sources */,
 				D25AA522293252CA0022B9DC /* Coordinator.swift in Sources */,
+				D25AA54829328B3B0022B9DC /* HomeCarrosselScreen.swift in Sources */,
 				D25AA54429325B850022B9DC /* HomeVM.swift in Sources */,
 				D25AA5382932578B0022B9DC /* UIColorExtension.swift in Sources */,
 				D25AA536293257270022B9DC /* UIFontExtension.swift in Sources */,
@@ -376,6 +403,7 @@
 				D25AA54229325B790022B9DC /* HomeViewController.swift in Sources */,
 				D25AA53A293258590022B9DC /* CALayerExtension.swift in Sources */,
 				D25AA523293252CA0022B9DC /* MainViewCoordinator.swift in Sources */,
+				D25AA54E2932904E0022B9DC /* BreweryModel.swift in Sources */,
 				D25AA4EF293250CA0022B9DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
