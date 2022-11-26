@@ -18,6 +18,15 @@
 		D25AA513293250CC0022B9DC /* BreweriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA512293250CC0022B9DC /* BreweriesUITestsLaunchTests.swift */; };
 		D25AA522293252CA0022B9DC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA520293252CA0022B9DC /* Coordinator.swift */; };
 		D25AA523293252CA0022B9DC /* MainViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA521293252CA0022B9DC /* MainViewCoordinator.swift */; };
+		D25AA52F293256560022B9DC /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D25AA52E293256500022B9DC /* Quicksand-Bold.ttf */; };
+		D25AA5302932565A0022B9DC /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D25AA52C293256500022B9DC /* Quicksand-Medium.ttf */; };
+		D25AA5312932565C0022B9DC /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D25AA52D293256500022B9DC /* Quicksand-Regular.ttf */; };
+		D25AA5322932565F0022B9DC /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D25AA527293255E20022B9DC /* Roboto-Light.ttf */; };
+		D25AA533293256610022B9DC /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D25AA526293255E20022B9DC /* Roboto-Regular.ttf */; };
+		D25AA534293256640022B9DC /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D25AA528293255E20022B9DC /* Roboto-Medium.ttf */; };
+		D25AA536293257270022B9DC /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA535293257270022B9DC /* UIFontExtension.swift */; };
+		D25AA5382932578B0022B9DC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA5372932578B0022B9DC /* UIColorExtension.swift */; };
+		D25AA53A293258590022B9DC /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA539293258590022B9DC /* CALayerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,15 @@
 		D25AA512293250CC0022B9DC /* BreweriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D25AA520293252CA0022B9DC /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		D25AA521293252CA0022B9DC /* MainViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewCoordinator.swift; sourceTree = "<group>"; };
+		D25AA526293255E20022B9DC /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D25AA527293255E20022B9DC /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		D25AA528293255E20022B9DC /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D25AA52C293256500022B9DC /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Medium.ttf"; path = "../../../../../../../Downloads/Quicksand/static/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		D25AA52D293256500022B9DC /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Regular.ttf"; path = "../../../../../../../Downloads/Quicksand/static/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		D25AA52E293256500022B9DC /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Bold.ttf"; path = "../../../../../../../Downloads/Quicksand/static/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		D25AA535293257270022B9DC /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		D25AA5372932578B0022B9DC /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		D25AA539293258590022B9DC /* CALayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +121,7 @@
 		D25AA4EB293250CA0022B9DC /* Breweries */ = {
 			isa = PBXGroup;
 			children = (
+				D25AA524293255960022B9DC /* Utils + Extensions */,
 				D25AA51F293252A70022B9DC /* Coordinator */,
 				D25AA4EC293250CA0022B9DC /* AppDelegate.swift */,
 				D25AA4EE293250CA0022B9DC /* SceneDelegate.swift */,
@@ -139,6 +158,30 @@
 				D25AA521293252CA0022B9DC /* MainViewCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D25AA524293255960022B9DC /* Utils + Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D25AA525293255B30022B9DC /* Font */,
+				D25AA535293257270022B9DC /* UIFontExtension.swift */,
+				D25AA5372932578B0022B9DC /* UIColorExtension.swift */,
+			);
+			path = "Utils + Extensions";
+			sourceTree = "<group>";
+		};
+		D25AA525293255B30022B9DC /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D25AA52E293256500022B9DC /* Quicksand-Bold.ttf */,
+				D25AA52C293256500022B9DC /* Quicksand-Medium.ttf */,
+				D25AA52D293256500022B9DC /* Quicksand-Regular.ttf */,
+				D25AA527293255E20022B9DC /* Roboto-Light.ttf */,
+				D25AA528293255E20022B9DC /* Roboto-Medium.ttf */,
+				D25AA526293255E20022B9DC /* Roboto-Regular.ttf */,
+				D25AA539293258590022B9DC /* CALayerExtension.swift */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +288,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25AA534293256640022B9DC /* Roboto-Medium.ttf in Resources */,
 				D25AA4FC293250CC0022B9DC /* LaunchScreen.storyboard in Resources */,
+				D25AA533293256610022B9DC /* Roboto-Regular.ttf in Resources */,
+				D25AA5302932565A0022B9DC /* Quicksand-Medium.ttf in Resources */,
+				D25AA5322932565F0022B9DC /* Roboto-Light.ttf in Resources */,
+				D25AA52F293256560022B9DC /* Quicksand-Bold.ttf in Resources */,
 				D25AA4F9293250CC0022B9DC /* Assets.xcassets in Resources */,
+				D25AA5312932565C0022B9DC /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +323,10 @@
 				D25AA4F1293250CA0022B9DC /* ViewController.swift in Sources */,
 				D25AA4ED293250CA0022B9DC /* AppDelegate.swift in Sources */,
 				D25AA522293252CA0022B9DC /* Coordinator.swift in Sources */,
+				D25AA5382932578B0022B9DC /* UIColorExtension.swift in Sources */,
+				D25AA536293257270022B9DC /* UIFontExtension.swift in Sources */,
 				D25AA4F7293250CA0022B9DC /* Breweries.xcdatamodeld in Sources */,
+				D25AA53A293258590022B9DC /* CALayerExtension.swift in Sources */,
 				D25AA523293252CA0022B9DC /* MainViewCoordinator.swift in Sources */,
 				D25AA4EF293250CA0022B9DC /* SceneDelegate.swift in Sources */,
 			);
