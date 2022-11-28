@@ -34,6 +34,8 @@
 		D25AA54829328B3B0022B9DC /* HomeCarrosselScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54729328B3B0022B9DC /* HomeCarrosselScreen.swift */; };
 		D25AA54B29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54A29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift */; };
 		D25AA54E2932904E0022B9DC /* BreweryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54D2932904E0022B9DC /* BreweryModel.swift */; };
+		D2CEF2D12934E6BC00322A02 /* SearchResultsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEF2D02934E6BC00322A02 /* SearchResultsScreen.swift */; };
+		D2D5402029339A8000CF8053 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5401F29339A8000CF8053 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		D25AA54729328B3B0022B9DC /* HomeCarrosselScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCarrosselScreen.swift; sourceTree = "<group>"; };
 		D25AA54A29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosselHomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		D25AA54D2932904E0022B9DC /* BreweryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryModel.swift; sourceTree = "<group>"; };
+		D2CEF2D02934E6BC00322A02 /* SearchResultsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsScreen.swift; sourceTree = "<group>"; };
+		D2D5401F29339A8000CF8053 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,7 @@
 				D25AA525293255B30022B9DC /* Font */,
 				D25AA535293257270022B9DC /* UIFontExtension.swift */,
 				D25AA5372932578B0022B9DC /* UIColorExtension.swift */,
+				D2D5401F29339A8000CF8053 /* UIImageExtension.swift */,
 			);
 			path = "Utils + Extensions";
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				D25AA53F29325B670022B9DC /* HomeScreen.swift */,
 				D25AA54529325C150022B9DC /* HomeNavScreen.swift */,
 				D25AA54729328B3B0022B9DC /* HomeCarrosselScreen.swift */,
+				D2CEF2D02934E6BC00322A02 /* SearchResultsScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -391,6 +397,8 @@
 			files = (
 				D25AA4F1293250CA0022B9DC /* ViewController.swift in Sources */,
 				D25AA54B29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift in Sources */,
+				D2CEF2D12934E6BC00322A02 /* SearchResultsScreen.swift in Sources */,
+				D2D5402029339A8000CF8053 /* UIImageExtension.swift in Sources */,
 				D25AA4ED293250CA0022B9DC /* AppDelegate.swift in Sources */,
 				D25AA522293252CA0022B9DC /* Coordinator.swift in Sources */,
 				D25AA54829328B3B0022B9DC /* HomeCarrosselScreen.swift in Sources */,

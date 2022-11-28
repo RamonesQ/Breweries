@@ -26,7 +26,7 @@ class HomeScreen: UIView {
 		self.backgroundColor = UIColor.backgroundColor()
 		self.configSuperView()
 		self.setupConstraints()
-		configCollectionView()
+		self.configCollectionView()
 	}
 	
 	required init?(coder: NSCoder) {
