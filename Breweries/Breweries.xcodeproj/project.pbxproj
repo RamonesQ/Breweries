@@ -36,6 +36,8 @@
 		D25AA54E2932904E0022B9DC /* BreweryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54D2932904E0022B9DC /* BreweryModel.swift */; };
 		D2CEF2D12934E6BC00322A02 /* SearchResultsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEF2D02934E6BC00322A02 /* SearchResultsScreen.swift */; };
 		D2CEF2D32934F60F00322A02 /* SearchResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEF2D22934F60F00322A02 /* SearchResultsTableViewCell.swift */; };
+		D2CEF2D5293530E400322A02 /* EmptySearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEF2D4293530E400322A02 /* EmptySearchScreen.swift */; };
+		D2CEF2D72935352500322A02 /* NoResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEF2D62935352500322A02 /* NoResultScreen.swift */; };
 		D2D5402029339A8000CF8053 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5401F29339A8000CF8053 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +92,8 @@
 		D25AA54D2932904E0022B9DC /* BreweryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryModel.swift; sourceTree = "<group>"; };
 		D2CEF2D02934E6BC00322A02 /* SearchResultsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsScreen.swift; sourceTree = "<group>"; };
 		D2CEF2D22934F60F00322A02 /* SearchResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewCell.swift; sourceTree = "<group>"; };
+		D2CEF2D4293530E400322A02 /* EmptySearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySearchScreen.swift; sourceTree = "<group>"; };
+		D2CEF2D62935352500322A02 /* NoResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultScreen.swift; sourceTree = "<group>"; };
 		D2D5401F29339A8000CF8053 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -233,6 +237,8 @@
 				D25AA54529325C150022B9DC /* HomeNavScreen.swift */,
 				D25AA54729328B3B0022B9DC /* HomeCarrosselScreen.swift */,
 				D2CEF2D02934E6BC00322A02 /* SearchResultsScreen.swift */,
+				D2CEF2D4293530E400322A02 /* EmptySearchScreen.swift */,
+				D2CEF2D62935352500322A02 /* NoResultScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -402,6 +408,7 @@
 				D25AA54B29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift in Sources */,
 				D2CEF2D12934E6BC00322A02 /* SearchResultsScreen.swift in Sources */,
 				D2D5402029339A8000CF8053 /* UIImageExtension.swift in Sources */,
+				D2CEF2D72935352500322A02 /* NoResultScreen.swift in Sources */,
 				D25AA4ED293250CA0022B9DC /* AppDelegate.swift in Sources */,
 				D25AA522293252CA0022B9DC /* Coordinator.swift in Sources */,
 				D25AA54829328B3B0022B9DC /* HomeCarrosselScreen.swift in Sources */,
@@ -413,6 +420,7 @@
 				D25AA54029325B670022B9DC /* HomeScreen.swift in Sources */,
 				D25AA54629325C150022B9DC /* HomeNavScreen.swift in Sources */,
 				D25AA54229325B790022B9DC /* HomeViewController.swift in Sources */,
+				D2CEF2D5293530E400322A02 /* EmptySearchScreen.swift in Sources */,
 				D25AA53A293258590022B9DC /* CALayerExtension.swift in Sources */,
 				D25AA523293252CA0022B9DC /* MainViewCoordinator.swift in Sources */,
 				D25AA54E2932904E0022B9DC /* BreweryModel.swift in Sources */,
