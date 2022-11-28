@@ -15,7 +15,7 @@ class EmptySearchScreen: UIView {
 		lbl.textAlignment = .center
 		lbl.font = UIFont.robotoRegular(ofSize: 20)
 		lbl.text = "Nenhum termo digitado"
-		lbl.textColor = .black
+		lbl.numberOfLines = 0
 		return lbl
 	}()
 	
@@ -48,6 +48,7 @@ class EmptySearchScreen: UIView {
 		NSLayoutConstraint.activate([
 			self.titleLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 200),
 			self.titleLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+			self.titleLabel.widthAnchor.constraint(equalToConstant: 300),
 			
 			self.subtitleLabel.topAnchor.constraint(equalTo: self.titleLabel.bottomAnchor, constant: 15),
 			self.subtitleLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor),
