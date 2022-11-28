@@ -35,12 +35,13 @@ class HomeNavScreen: UIView {
 	lazy var searchBar: UISearchBar = {
 		let sb = UISearchBar()
 		sb.translatesAutoresizingMaskIntoConstraints = false
-		sb.clipsToBounds = true
-		sb.layer.cornerRadius = 35
 		sb.placeholder = "Busque por local"
+		sb.searchTextField.layer.cornerRadius = 20
+		sb.searchTextField.layer.masksToBounds = true
 		sb.searchTextField.backgroundColor = UIColor.BreweryYellowPale()
 		sb.searchTextField.font = UIFont.robotoRegular(ofSize: 14)
 		sb.searchBarStyle = .minimal
+		sb.isUserInteractionEnabled = true
 		return sb
 	}()
 	
