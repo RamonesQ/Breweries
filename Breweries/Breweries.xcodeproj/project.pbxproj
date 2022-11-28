@@ -35,6 +35,7 @@
 		D25AA54B29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54A29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift */; };
 		D25AA54E2932904E0022B9DC /* BreweryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA54D2932904E0022B9DC /* BreweryModel.swift */; };
 		D2CEF2D12934E6BC00322A02 /* SearchResultsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEF2D02934E6BC00322A02 /* SearchResultsScreen.swift */; };
+		D2CEF2D32934F60F00322A02 /* SearchResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEF2D22934F60F00322A02 /* SearchResultsTableViewCell.swift */; };
 		D2D5402029339A8000CF8053 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D5401F29339A8000CF8053 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 		D25AA54A29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosselHomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		D25AA54D2932904E0022B9DC /* BreweryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryModel.swift; sourceTree = "<group>"; };
 		D2CEF2D02934E6BC00322A02 /* SearchResultsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsScreen.swift; sourceTree = "<group>"; };
+		D2CEF2D22934F60F00322A02 /* SearchResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewCell.swift; sourceTree = "<group>"; };
 		D2D5401F29339A8000CF8053 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				D25AA54A29328D2B0022B9DC /* CarrosselHomeCollectionViewCell.swift */,
+				D2CEF2D22934F60F00322A02 /* SearchResultsTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				D25AA54829328B3B0022B9DC /* HomeCarrosselScreen.swift in Sources */,
 				D25AA54429325B850022B9DC /* HomeVM.swift in Sources */,
 				D25AA5382932578B0022B9DC /* UIColorExtension.swift in Sources */,
+				D2CEF2D32934F60F00322A02 /* SearchResultsTableViewCell.swift in Sources */,
 				D25AA536293257270022B9DC /* UIFontExtension.swift in Sources */,
 				D25AA4F7293250CA0022B9DC /* Breweries.xcdatamodeld in Sources */,
 				D25AA54029325B670022B9DC /* HomeScreen.swift in Sources */,

@@ -43,8 +43,9 @@ class SearchResultsScreen: UIView {
 	lazy var tableView: UITableView = {
 		let table = UITableView()
 		table.translatesAutoresizingMaskIntoConstraints = false
-		table.backgroundColor = .green
+		table.backgroundColor = .clear
 		table.separatorStyle = .none
+		table.register(SearchResultsTableViewCell.self, forCellReuseIdentifier: SearchResultsTableViewCell.identifier)
 		return table
 	}()
 	
