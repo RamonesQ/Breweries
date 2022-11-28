@@ -60,7 +60,7 @@ class HomeCarrosselScreen: UIView {
 		NSLayoutConstraint.activate([
 			
 			self.topTenLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 25),
-			self.topTenLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 12),
+			self.topTenLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor),
 			self.topTenLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -50),
 			
 			self.carrosselView.topAnchor.constraint(equalTo: self.topTenLabel.bottomAnchor, constant: 15),
