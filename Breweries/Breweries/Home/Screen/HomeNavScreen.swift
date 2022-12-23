@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeNavScreen: UIView {
+class HomeNavScreen: UIView, UISearchBarDelegate {
 	
 	lazy var backgroundImage: UIImageView = {
 		let img = UIImageView()
@@ -32,19 +32,6 @@ class HomeNavScreen: UIView {
 		return lbl
 	}()
 	
-	lazy var searchBar: UISearchBar = {
-		let sb = UISearchBar()
-		sb.translatesAutoresizingMaskIntoConstraints = false
-		sb.placeholder = "Busque por local"
-		sb.searchTextField.layer.cornerRadius = 20
-		sb.searchTextField.layer.masksToBounds = true
-		sb.searchTextField.backgroundColor = UIColor.BreweryYellowPale()
-		sb.searchTextField.font = UIFont.robotoRegular(ofSize: 14)
-		sb.searchBarStyle = .minimal
-		sb.isUserInteractionEnabled = true
-		return sb
-	}()
-	
 	override init(frame: CGRect) {
 		super.init(frame: frame)
 		self.configSuperView()
@@ -59,7 +46,6 @@ class HomeNavScreen: UIView {
 		self.addSubview(backgroundImage)
 		self.backgroundImage.addSubview(titleLabel)
 		self.backgroundImage.addSubview(subtitleLabel)
-		self.backgroundImage.addSubview(searchBar)
 	}
 	
 	private func setupConstraints(){
@@ -76,11 +62,6 @@ class HomeNavScreen: UIView {
 			self.subtitleLabel.topAnchor.constraint(equalTo: self.titleLabel.bottomAnchor, constant: 5),
 			self.subtitleLabel.leadingAnchor.constraint(equalTo: self.titleLabel.leadingAnchor),
 			self.subtitleLabel.trailingAnchor.constraint(equalTo: self.titleLabel.trailingAnchor),
-			
-			self.searchBar.topAnchor.constraint(equalTo: self.subtitleLabel.bottomAnchor, constant: 12),
-			self.searchBar.leadingAnchor.constraint(equalTo: self.backgroundImage.leadingAnchor, constant: 9),
-			self.searchBar.trailingAnchor.constraint(equalTo: self.backgroundImage.trailingAnchor, constant: -9),
-			self.searchBar.bottomAnchor.constraint(equalTo: self.backgroundImage.bottomAnchor, constant: -25)
 		])
 	}
 	
